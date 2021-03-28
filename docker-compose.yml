@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  contenedor_1:
+    image: asignacion8
+    volumes:
+      - vol_d:\app
+volumes:
+  vol_d:
+    external: true
