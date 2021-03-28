@@ -25,7 +25,7 @@ while(1):
 
     for i in range(len(payload2)):
         data['Equipos'].append({
-        'family': payload2[i]['family'],
+        'hostname': payload2[i]['hostname'],
         'status': payload2[i]['reachabilityStatus']})
 
     with open('list.json', 'w') as file:
